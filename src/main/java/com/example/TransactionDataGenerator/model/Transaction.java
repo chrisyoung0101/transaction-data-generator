@@ -8,7 +8,8 @@ import java.time.LocalTime;
 @Data
 public class Transaction {
     private String transactionType;
-    private BigDecimal amount;
+    //private BigDecimal amount;
+    private double amount;
     private LocalDate date;
     private LocalTime time;
     private String accountNumber;
